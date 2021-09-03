@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:300,600,700&display=swap');
+
+* {
+    margin: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+}
+
+
+/* Download
+===================*/
+
+.download {
+    width: 1000px;
+    height: 350px;
+    margin: 50px auto;
+    padding-top: 105px;
+    box-sizing: border-box;
+    text-align: center;
+    border: 1px solid #e84545;
+}
+
+.download__title {
+    margin-bottom: 10px;
+
+    font-size: 28px;
+    color: #2d3033;
+    font-weight: 300;
+}
+
+.download__text {
+    margin-bottom: 30px;
+
+    font-size: 13px;
+    color: #2d3033;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+
+/* Button
+===================*/
+.btn {
+    display: inline-block;
+    vertical-align: top;
+    padding: 14px 40px;
+
+    border-radius: 2px;
+    border: 0;
+    cursor: pointer;
+
+    font-size: 13px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+
+    transition: background .1s linear;
+}
+
+.btn--red {
+    background-color: #e84545;
+}
+
+.btn--red:hover {
+    background-color: #dd3434;
+}
+
+.btn--long {
+    min-width: 280px;
+}
